@@ -25,15 +25,15 @@
     <div id="app">
 
         <div class="indexpage" id="indexid">
-
             <div class="allindexbuttons">
+                 <h1>The Creative Hub</h1>
+                 <div class="indexbuttons">
+                    <button class="mainbutton" id="venuesb" @click="showvenues">Creative Listing</button>
+                </div>
                 <div class="indexbuttons">
                     <button class="mainbutton" id="calendarb" @click="showcalendar">Calendar</button>
                 </div>
-                <div class="indexbuttons">
-                    <button class="mainbutton" id="venuesb" @click="showvenues">Venues Info</button>
-                </div>
-                <div class="indexbuttons">
+                <!-- <div class="indexbuttons">
                     <button class="mainbutton" id="chatb" @click="showchat">Chat</button>
                 </div>
                 <div class="indexbuttons" v-if="!loginstatus">
@@ -41,7 +41,7 @@
                 </div>
                 <div class="indexbuttons" v-if="loginstatus">
                     <button class="mainbutton" id="logoutb" @click="logout">Log Out</button>
-                </div>
+                </div> -->
             </div>
         </div>
 
